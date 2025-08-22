@@ -21,11 +21,7 @@ function About() {
           transition={{ duration: 1 }}
           className="flex items-center justify-center relative col-span-1 max-md:row-start-2 w-fit mx-auto z-20 max-md:h-2/3 my-auto"
         >
-          <motion.img
-            src={coding}
-            alt=""
-            className="object-contain h-full"
-          />
+          <motion.img src={coding} alt="" className="object-contain h-full" />
           <motion.img
             animate={{
               y: [80, 70, 60, 50, 40],
@@ -124,12 +120,8 @@ function About() {
             </p>
             <p>
               {language === "FR"
-                ? `Je me forme de manière autodidacte depuis août 2023 en m'appuyant
-              sur des ressources variées : documentations, IA, YouTube, et bien
-              plus encore. Pour moi, un bon développeur est toujours en quête de
-              nouvelles connaissances, prêt à relever chaque défi avec curiosité
-              et détermination.`
-                : `Since August 2023, I have been self-learning by utilizing various resources: documentation, AI, YouTube, and much more. To me, a good developer is always in pursuit of new knowledge, ready to tackle each challenge with curiosity and determination.`}
+                ? `Développeur Full Stack avec plus de 2 ans d'expérience, je crée des applications web complètes, du back-end au front-end. Je me forme en continu par passion pour le développement et les nouvelles technologies, et j'aime apprendre, évoluer et relever de nouveaux défis.`
+                : `Full Stack Developer with over 2 years of experience, I build complete web applications, from back-end to front-end. I continuously learn out of passion for development and new technologies, and I love exploring, growing, and taking on new challenges.`}
             </p>
             <p>
               {language === "FR"

@@ -4,7 +4,7 @@ import { useScreenContext } from "../../contexts/screenContext";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faFile } from "@fortawesome/free-solid-svg-icons";
-import CV from "/CV.pdf"
+import CV from "/CV_Benjamin_Boufflers.pdf"
 
 function Footer() {
   const [images, setImages] = useState([]);
